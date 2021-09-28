@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suwit Jawa</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1 class="title">SUWIT <span>JAWA</span></h1>
+
+    <section class="suwit-jawa">
+        <div class="rules-wrapper">
+            <h2>Rules</h2>
+            <ul class="rules">
+                <li class="rule">
+                    <img src="img/gajah.png" alt="suwit" width="50"> x
+                    <img src="img/orang.png" alt="suwit" width="50"> =
+                    <img src="img/gajah.png" alt="suwit" width="50">
+                </li>
+                <li class="rule">
+                    <img src="img/orang.png" alt="suwit" width="50"> x
+                    <img src="img/semut.png" alt="suwit" width="50"> =
+                    <img src="img/orang.png" alt="suwit" width="50">
+                </li>
+                <li class="rule">
+                    <img src="img/semut.png" alt="suwit" width="50"> x
+                    <img src="img/gajah.png" alt="suwit" width="50"> =
+                    <img src="img/semut.png" alt="suwit" width="50">
+                </li>
+            </ul>
+        </div>
+
+        <div class="battle-area">
+            <div class="area-wrapper">
+                <div class="bot-area">
+                    <img src="img/gajah.png" class="img-bot">
+                </div>
+                <div class="info"></div>
+                <div class="player-area">
+                    <ul>
+                        <li>
+                            <img src="img/gajah.png" class="gajah">
+                        </li>
+                        <li>
+                            <img src="img/orang.png" class="orang">
+                        </li>
+                        <li>
+                            <img src="img/semut.png" class="semut">
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="scores">
+            <h1>Score</h1>
+            <div class="score-wrapper">
+                <div class="bot-score">
+                    <p class="identifier">Bot</p>
+                    <p class="bot-score-count"></p>
+                </div>
+                <div class="player-score">
+                    <p class="identifier">Player</p>
+                    <p class="player-score-count"></p>
+                </div>
+            </div>
+            <button class="reset">Reset</button>
+        </div>
+
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
